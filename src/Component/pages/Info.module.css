@@ -1,0 +1,82 @@
+/*Article*/
+.info {
+    transform: translateY(8rem);
+    max-width: 53%;
+    margin: auto;
+
+}
+
+.info .info__header {
+    font-size: 3rem;
+    color: firebrick;
+    font-family: sans-serif;
+    margin: 1rem 0;
+}
+
+.info .info__comment {
+    text-align: center;
+    font-style: italic;
+}
+
+.info .info__btn,
+.info__form button {
+    margin: 0.7rem 0;
+    border: none;
+    background-color: firebrick;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.5rem 2.3rem;
+}
+
+.info .info__btn:hover {
+    background-color: rgb(229, 58, 58);
+}
+
+/*Form*/
+.info__form {
+    border: 2px solid red;
+    border-radius: 1rem;
+    transform: translateY(8rem);
+    width: 55%;
+    margin: auto;
+    min-height: 10rem;
+}
+
+.info__form p {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.info__form h1 {
+    text-align: center;
+    color: firebrick;
+}
+
+.info__form input {
+    display: block;
+    border: none;
+    width: 40%;
+    margin: 1rem auto;
+    border: 1px solid black;
+    color: black;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.6rem;
+}
+
+.info__form input:hover {
+    border: none;
+    border: 1px solid firebrick;
+}
+
+.info__form button {
+    margin-left: 1rem;
+    padding: 0.2rem 1.3rem;
+}
+
+/*mobile (form)*/
+.info__form_p {
+    width: 80%;
+
+}

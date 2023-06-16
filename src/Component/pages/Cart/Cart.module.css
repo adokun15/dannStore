@@ -1,0 +1,120 @@
+.cart__section {
+    width: 100%;
+    position: relative;
+}
+
+/*Laptop*/
+
+.cart {
+    transform: translateY(9rem);
+    width: 55%;
+    margin: 0 auto;
+    box-shadow: -0.2rem 0.01rem 0.4rem black;
+    height: 10rem;
+    min-height: 15rem;
+    overflow-y: scroll;
+}
+
+.cart .header {
+    color: white;
+    padding: 0 2rem;
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart .header h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+
+/*item*/
+.cartItem {
+    line-height: 4rem;
+}
+
+.cartItem li {
+    list-style-type: none;
+    justify-content: space-between;
+    border-bottom: 2px solid red;
+    display: flex;
+}
+
+.cartItem .action button {
+    margin-left: 0.8rem;
+    border: none;
+    background: none;
+    padding: 0.1rem 1rem;
+    color: firebrick;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cartItem .action button:hover {
+    font-size: 0.89rem;
+}
+
+.cart .invalid {
+    text-align: center;
+    width: 100%;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.cart__action {
+    position: absolute;
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.8rem 0.9rem;
+    bottom: 0;
+}
+
+.cart__action div button {
+    margin-left: 0.8rem;
+    border: none;
+    background: none;
+    background: firebrick;
+    padding: 0.1rem 1rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.cart__action div a {
+    color: white;
+}
+
+.cart__action div button:hover {
+    background-color: rgb(127, 16, 16);
+}
+
+.success {
+    margin: 1rem auto;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.success__paragraph a {
+    color: firebrick;
+    text-decoration: underline;
+}
+
+.success__paragraph a:hover {
+    border: none;
+}
+
+.success__paragraph {
+    text-align: center;
+
+}
+
+/*mobile*/
+.cart__mobile {
+    width: 83%;
+    min-height: 60vh;
+}

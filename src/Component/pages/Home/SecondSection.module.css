@@ -1,0 +1,93 @@
+.second__section {
+    /*height: 100vh;*/
+    padding: 1rem 0;
+    margin: 4rem auto;
+    max-width: 80%;
+
+}
+
+.second__section__item {
+    overflow: hidden;
+    display: flex;
+    min-height: 15rem;
+    max-height: 45rem;
+    margin: 1rem 0;
+}
+
+.second__section__item .imgCont {
+    height: 100%;
+    width: 50%;
+    border-radius: 0.8rem;
+}
+
+.second__section__item img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius: 0.8rem;
+}
+
+.second__section__item .itemDescCont {
+    width: 50%;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.itemDescCont p {
+    display: block;
+    margin: 0 3rem;
+    color: red;
+}
+
+/*mobile*/
+.second__section__item_mobile {
+    display: grid;
+    position: relative;
+    margin: 0.9rem auto;
+    height: 100%;
+    padding-bottom: 0;
+    max-height: 80vh;
+}
+
+
+
+.second__section__item_mobile .itemDescCont {
+    display: block;
+    width: 33%;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    line-height: 3rem;
+    left: 70%;
+    padding: 0;
+}
+
+.second__section__item_mobile .imgCont {
+    position: absolute;
+    width: 66%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.second__section__item_mobile .itemDescCont p {
+    display: block;
+    margin: 1rem 0;
+
+}
+
+.second__section__item_mobile .itemDescCont a {
+    display: block;
+    height: fit-content;
+    height: 3rem;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.second__section__item_mobile .itemDescCont a:hover {
+    text-decoration: underline;
+}

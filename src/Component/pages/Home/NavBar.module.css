@@ -1,0 +1,56 @@
+.nav__laptop {
+    position: absolute;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    padding: 1rem 2.6rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    min-height: 1rem;
+}
+
+.nav__laptop h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.nav__laptop ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav__laptop li {
+    border: none;
+}
+
+.nav__laptop .activeLink {
+    border-bottom: 1px solid red;
+}
+
+/*mobile*/
+.nav__phone {
+    padding: 1rem .6rem;
+    align-items: center;
+}
+
+.nav__phone h1 {
+    font-size: 1.1rem;
+}
+
+.nav__phone .togglebtn {
+    transition: all 0.8s;
+    font-size: 1.4rem;
+    background: none;
+    border: none;
+    padding: 0 0.6em;
+    cursor: pointer;
+}
+
+.nav__phone ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,15 @@
+.loaderContainer {
+    display: block;
+}
+
+.loader {
+    border: none;
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+.loaderContainer .mes {
+    font-size: 0.9rem;
+    text-align: center;
+}

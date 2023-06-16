@@ -1,0 +1,38 @@
+.footer {
+    height: 4rem;
+    background-color: firebrick;
+    color: white;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer ul {
+    width: 40%;
+    display: flex;
+    margin: 1rem auto;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer_p {
+    height: fit-content;
+    overflow: visible;
+    padding-top: 0.6rem;
+}
+
+.footer_p ul {
+    width: 100%;
+}
